@@ -1,0 +1,43 @@
+
+body{
+    margin: 0px;
+    font-family: 'rubik';
+}
+
+.App{
+    margin-top: -20px;
+}
+
+.container-header{
+    background-image: url('../img/pattern-bg.png');
+    height: 230px;
+    margin: 0px;
+    text-align: center;
+
+    .title-ip{
+        h1{
+            color: white;
+            padding-top: 30px;
+            font-weight:400 ;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            .mb-3 input{
+                border: 1px solid var(--DarkGray);
+                border-radius: 12px 0px 0px 12px;
+                height: 35px;
+                padding-left: 25PX;
+                width: 300px;
+            }
+            .btn-primary{
+                background-color: var(--VeryDarkGray);
+                border-color: var(--VeryDarkGray);
+                border-radius: 0px 12px 12px 0px;
+                color: white;
+                width: 40px;
+            }
+        }
+    }
+}
+
