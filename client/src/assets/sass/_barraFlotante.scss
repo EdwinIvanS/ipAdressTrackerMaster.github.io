@@ -1,0 +1,28 @@
+.barra-flotante{
+    text-align: -webkit-center;
+    .container-barra-flotante{
+        background-color: white;
+        border: 1px solid var(--Gray);
+        border-radius: 15px;
+        display: flex;
+        height: 150px;
+        justify-content: space-around;
+        margin: -60px;
+        position: relative;
+        text-align: center;
+        width: 70%;
+        .barra-flotante-info{
+            align-self: center;
+            padding: 10px;
+            span{
+                color: var(--DarkGray);
+                font-size: 12px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}

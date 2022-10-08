@@ -14,7 +14,7 @@ export function Header() {
                         <h1>IP Adress Tracker</h1>
                         <form>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control type="password" placeholder="Password" />
+                                <Form.Control type="password" placeholder="Search for any IP address or domain" />
                             </Form.Group>
                             <Button variant="primary" type="submit"> 
                                 <FontAwesomeIcon icon={faAngleDoubleRight} />
@@ -22,8 +22,7 @@ export function Header() {
                         </form>
                     </div>
                 </Container>
-            </header>
-            
+            </header>            
         </React.Fragment>
     )
 }
