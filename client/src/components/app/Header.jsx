@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import BarraFlotante from "./BarraFlotante";
+import SectionMap from "./SectionMap";
 
 export function Header() {
     return(
@@ -22,7 +24,10 @@ export function Header() {
                         </form>
                     </div>
                 </Container>
-            </header>            
+                <BarraFlotante/>
+                <SectionMap/>
+            </header> 
+
         </React.Fragment>
     )
 }

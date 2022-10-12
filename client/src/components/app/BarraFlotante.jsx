@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 
-export function BarraFlotante() {
+function BarraFlotante() {
     return(
         <React.Fragment>
             <section className="barra-flotante">
@@ -27,3 +27,4 @@ export function BarraFlotante() {
         </React.Fragment>
     )
 }
+export default BarraFlotante;
