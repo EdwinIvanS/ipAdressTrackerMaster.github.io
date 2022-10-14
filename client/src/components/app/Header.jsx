@@ -16,7 +16,7 @@ export function Header() {
                         <h1>IP Adress Tracker</h1>
                         <form>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control type="password" placeholder="Search for any IP address or domain" />
+                                <Form.Control type="text" placeholder="Search for any IP address or domain" autoComplete="on"/>
                             </Form.Group>
                             <Button variant="primary" type="submit"> 
                                 <FontAwesomeIcon icon={faAngleDoubleRight} />

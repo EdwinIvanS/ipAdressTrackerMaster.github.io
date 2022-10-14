@@ -7,19 +7,19 @@ function BarraFlotante() {
             <section className="barra-flotante">
                 <Container className="container-barra-flotante">
                     <div className="barra-flotante-info">
-                        <span>HOLA MI PERRROS</span>
+                        <span>HOLA </span>
                         <p>INFORMACIUON</p>
                     </div>
                     <div className="barra-flotante-info">
-                        <span>HOLA MI PERRROS</span>
+                        <span>HOLA </span>
                         <p>INFORMACIUON</p>
                     </div>
                     <div className="barra-flotante-info">
-                        <span>HOLA MI PERRROS</span>
+                        <span>HOLA </span>
                         <p>INFORMACIUON</p>
                     </div>
                     <div className="barra-flotante-info">
-                        <span>HOLA MI PERRROS</span>
+                        <span>HOLA </span>
                         <p>INFORMACIUON</p>
                     </div>
                 </Container>
